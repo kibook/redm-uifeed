@@ -34,8 +34,8 @@ AddEventHandler(currentResourceName .. ":showTopNotification", function(title, s
 	exports[currentResourceName]:showTopNotification(title, subtext, duration)
 end)
 
-AddEventHandler(currentResourceName .. ":showAdvancedNotification", function(text, dict, icon, text_color, duration)
-	exports[currentResourceName]:showAdvancedNotification(text, dict, icon, text_color, duration)
+AddEventHandler(currentResourceName .. ":showAdvancedRightNotification", function(text, dict, icon, text_color, duration)
+	exports[currentResourceName]:showAdvancedRightNotification(text, dict, icon, text_color, duration)
 end)
 
 AddEventHandler(currentResourceName .. ":showBasicTopNotification", function(text, duration)
